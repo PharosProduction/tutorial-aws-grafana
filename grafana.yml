@@ -1,0 +1,6 @@
+---
+- name: Install Grafana
+  hosts: grafana-test
+  roles:
+    - grafana
+   
